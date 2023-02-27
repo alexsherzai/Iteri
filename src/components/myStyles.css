@@ -1,0 +1,47 @@
+.HeaderBar {
+    width: 100%;
+    padding: 0.5em 1em;
+    display: flex;
+    height: 64px;
+    align-items: center;
+    background-color: #CF9FFF;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.HeaderText {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+.circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #0096FF;
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    margin:15px;
+}
+
+.neuron-text {
+    font-family: 'Verdana';
+    margin:auto;
+}
+
+.layer {
+    -webkit-transition: background 0.4s; /* For Safari 3.0 to 6.0 */
+    transition: background 0.4s;
+}
+
+.layer:hover {
+    background-color: #808080;
+    -webkit-transition: background 0.4s; /* For Safari 3.0 to 6.0 */
+    transition: background 0.4s;
+}
+
+.model {
+    display:flex;
+    flex-direction:row;
+}
